@@ -1,0 +1,80 @@
+html, body {
+height: 100%;
+background-color: #4f8d97;
+}
+/* CSS only for centering */
+.container-fluid,.container {
+    height: 100%;
+}
+.h-100 {
+    border: 1px dotted #4f8d97;
+}
+.jumbotron{
+    background-color: #60a6b1;
+    color: #FFF;
+    border:1px solid rgb(178, 208, 211);
+}
+h2{
+text-shadow: 0 0 3px #313030, 0 0 5px #252527;
+font-family: "Allerta Stencil", Sans-serif;
+font-weight: bold;
+}
+h3{
+text-shadow: 2px 2px 4px #000000;
+    font-family: "Allerta Stencil", Sans-serif;
+}
+.jumbotron{
+    box-shadow: 0px 5px 5px rgb(90, 88, 88);
+}
+.questions-show-area{
+    display:flex;
+}
+.questions-area{
+    display:inline-block;
+    width: 100%;
+}
+div{
+    display:block;
+     overflow:auto;
+}
+.anwser{
+    width: 100%;
+    transition: 1.3ms;
+    display:flex;
+    border-left: 4px solid #17A2B8;
+    background-color: #EEE;
+    transition: 0.3s;
+}
+.anwser:hover{
+    color: lightyellow;
+    border-left: 4px solid #FFF;
+    background-color: #17A2B8;
+    box-shadow: 0px 5px 5px rgb(90, 88, 88);
+    cursor: pointer;
+    transform: scaleY(1.1);
+}
+p.choice-text{
+    font-weight: bold;
+    width: 100%;
+}
+
+.correct{
+    color: #FFF;
+    background-color:#4CAF50;
+}
+.incorrect{
+    color: #FFF;
+    background-color: #E1503C;
+}
+/* .hidden{
+    display:none;
+} */
+#loader{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    margin: -75px 0 0 -75px;
+}

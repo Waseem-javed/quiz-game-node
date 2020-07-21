@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+    html, body {
+    height: 100%;
+    background-color: #4f8d97;
+    }
+    /* CSS only for centering */
+    .container-fluid,.container {
+        height: 100%;
+    }
+    .h-100 {
+        border: 1px dotted #4f8d97;
+    }
+    .jumbotron{
+        background-color: #60a6b1;
+        color: #FFF;
+        border:1px solid rgb(178, 208, 211);
+    }
+    form{
+        width:30%;
+    }
+    form .input{
+        padding:2px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-sm-12 text-center jumbotron shadow-sm my-auto">
+                    <h1 class="text-white font-weight-bold p-2 m-0">Score</h1>
+                    <h2 id="finalScore">0</h2>
+                    <form class="mx-auto m-0 p-0">
+                        <div class="form-group text-center m-0 p-0">
+                            <input type="text" id="username" class="input form-control" placeholder="Username">
+                            <button onclick="saveHighScore(event)" id="savebtn" class="mt-2 btn btn-outline-light mb-4" disabled>Save</button>
+                        </div>
+                    </form>
+                    <a href="quiz.html" class="btn btn-outline-light mb-4">Let's Play Again</a><br>
+                    <a href="index.html" class="btn btn-outline-light mb-4">Go Home</a><br>
+                    <small class="text-white">Developed By <a href="#" class="text-white badge badge-danger">Waseemjaved</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>

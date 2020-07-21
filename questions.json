@@ -1,0 +1,52 @@
+{
+	"questions":[
+	{
+		"question": "What did you learn from the Javascript Course.?",
+		"choice1": "Logic",
+		"choice2": "Design",
+		"choice3": "Programming",
+		"choice4": "Code",
+		"answer": 1
+	},
+	{
+		"question": "Which one of these is a JavaScript package manager?",
+		"choice1": "Node.js",
+		"choice2": "TypeScript",
+		"choice3": "npm",
+		"choice4": "Yarn",
+		"answer": 3
+	},
+	{
+		"question": "Javascript is the Best programming language in the world.?",
+		"choice1": "Yes",
+		"choice2": "No",
+		"choice3": "N/A",
+		"choice4": "N/A",
+		"answer": 1
+	},
+	{
+		"question": "Below Given languages which one is the most powerful language in the world",
+		"choice1": "Python",
+		"choice2": "Javascript",
+		"choice3": "Ruby",
+		"choice4": "Java",
+		"answer": 1
+	},
+	{
+		"question": "Who invented JavaScript ?",
+		"choice1": "Douglas Crockford",
+		"choice2": "Sheryl Sandberg",
+		"choice3": "Brendan Eich",
+		"choice4": "N/A",
+		"answer": 3
+	},
+	{
+		"question": "Which tool can you use to ensure code quality?",
+		"choice1": "Angular",
+		"choice2": "jQuery",
+		"choice3": "RequireJS",
+		"choice4": "ESLint",
+		"answer": 4
+	}
+	]
+}
