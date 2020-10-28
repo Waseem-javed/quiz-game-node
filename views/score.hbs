@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,40 +17,51 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
-    html, body {
-    height: 100%;
-    background-color: #4f8d97;
-    }
-    /* CSS only for centering */
-    .container-fluid,.container {
-        height: 100%;
-    }
-    .h-100 {
-        border: 1px dotted #4f8d97;
-    }
-    .jumbotron{
-        background-color: #60a6b1;
-        color: #FFF;
-        border:1px solid rgb(178, 208, 211);
-    }
-    h1{
-        color: yellow;
-  text-shadow: 0 0 3px #130312, 0 0 5px #02020e;
-    }
+        html,
+        body {
+            height: 100%;
+            background-color: #4f8d97;
+        }
+
+        /* CSS only for centering */
+        .container-fluid,
+        .container {
+            height: 100%;
+        }
+
+        .h-100 {
+            border: 1px dotted #4f8d97;
+        }
+
+        .jumbotron {
+            background-color: #60a6b1;
+            color: #FFF;
+            border: 1px solid rgb(178, 208, 211);
+        }
+
+        h1 {
+            color: yellow;
+            text-shadow: 0 0 3px #130312, 0 0 5px #02020e;
+        }
     </style>
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="container">
             <div class="row h-100">
                 <div class="col-sm-12 text-center jumbotron shadow-sm my-auto">
-                    <h1 class="text-white font-weight-bold p-3">Welcome to Quiz Game</h1>
-                    <a href="quiz.html" class="btn btn-outline-light mb-4">Let's Play</a><br>
-                    <a href="highScore.html" class="btn btn-outline-light mb-4">High Scores</a><br>
-                    <small class="text-white">Developed By <a href="https://github.com/Waseem-javed" class="text-success badge badge-light">Waseemjaved</a></small>
+                    <h1 class="text-white font-weight-bold p-3">High Scores</h1>
+                    <ul class="list-group d-inline-block" id="highScoreList">
+
+                    </ul><br>
+                    <a href="/" class="mt-2 btn btn-outline-light mb-4">GO Home</a><br>
+                    <small class="text-white">Developed By <a href="#" class="text-danger">Waseemjaved</a></small>
                 </div>
             </div>
         </div>
     </div>
+    <script src="/js/score.js"></script>
 </body>
+
 </html>

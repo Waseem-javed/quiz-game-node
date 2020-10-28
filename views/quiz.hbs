@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,31 +16,34 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="/css/quiz.css">
 </head>
+
 <body class="m-0 p-0">
     <div class="container-fluid">
         <div id="loader" class="spinner-border text-light"></div>
-        <div id="game" class="container shadow shadow-sm d-none">
+
+        <div id="game" class="container d-none">
             <div class="jumbotron pb-1 mb-0">
                 <h2>Quiz Game</h2>
                 <div class="mb-0 row">
                     <div class="col-sm-10">
                         <h4 id="questions-counter"></h4>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-2 text-right">
                         Score
                         <h4 id="scores-counter">0</h4>
                     </div>
-                    
-                         
+
+
                 </div>
             </div>
-            <h3 class="question mt-4 text-white font-weight-bold">
-                Question will be showing here 
+            <h3 class="question mt-3 text-white font-weight-bold">
+                Question will be showing here
             </h3>
 
             <div class="anwser rounded  mb-2">
@@ -58,12 +62,14 @@
                 <p class="bg-info p-3 m-0 text-white font-weight-bold">D</p>
                 <p class="choice-text p-3 m-0" data-number="4">Choices a</p>
             </div>
-
-            <div class="jumbotron p-3 text-center">
-                Developed By <a href="#" class="text-info badge badge-light ">Waseemjaved</a> Copyright &copy; 2020 
+            <div class="container jumbotron p-3 text-center" id="footer">
+                Developed By <a href="#" class="text-info badge badge-light ">Waseemjaved</a> Copyright &copy; 2020
             </div>
         </div>
+
+
     </div>
-    <script src="quiz.js"></script>
+    <script src="/js/quiz.js"></script>
 </body>
+
 </html>
