@@ -3,6 +3,8 @@ const app = express();
 const hbs = require('hbs');
 const path = require('path');
 
+const port = process.env.PORT || 9000;
+
 // define correct path
 const viewPath = path.join(__dirname, '../views');
 const dir = path.join(__dirname, '../public');
@@ -27,6 +29,6 @@ app.get('/end', (req, res) => {
     res.render('end')
 })
 
-app.listen(9000, () => {
-    console.log('Server has been start on port : 9000')
+app.listen(port, () => {
+    console.log('Server has been start on port : ',port)
 })
